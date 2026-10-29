@@ -10,4 +10,3 @@ Beschreibe deine Idee.
 - Warum wäre das nützlich?
 - Für welche Situationen hilft es?
 - Gibt es Beispiele oder Screenshots?
-

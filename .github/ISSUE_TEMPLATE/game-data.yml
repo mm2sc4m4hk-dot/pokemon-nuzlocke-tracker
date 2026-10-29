@@ -35,7 +35,7 @@ body:
     id: correct
     attributes:
       label: Was steht aktuell da, was wäre richtig?
-      description: Bitte beschreibe den aktuellen Fehler und die korrekte Information.
+      description: Bitte den aktuellen Fehler und die korrekte Information beschreiben.
       placeholder: |
         Aktuell: Level Cap 12
         Richtig: Level Cap 15

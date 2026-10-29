@@ -30,5 +30,5 @@ body:
     id: mockup
     attributes:
       label: Optional: Wie stellst du dir das vor?
-      description: Besser mit Beispielen, Screenshots oder einer kurzen Idee.
+      description: Mit Beispielen, Screenshots oder einer kurzen Idee.
       placeholder: Beispiel: Ein zusätzliches Dashboard mit Statistiken und kurzen Zusammenfassungen.

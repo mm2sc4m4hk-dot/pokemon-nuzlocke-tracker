@@ -30,7 +30,7 @@ body:
     id: steps
     attributes:
       label: Schritte zum Nachstellen
-      description: Bitte nacheinander auflisten.
+      description: Bitte der Reihe nach auflisten.
       placeholder: |
         1. Tracker öffnen
         2. Run laden
@@ -52,7 +52,7 @@ body:
     id: device
     attributes:
       label: Browser & Gerät
-      description: Handy/PC, Browser, ggf. Gerätetyp.
+      description: Handy/PC, Browser und ggf. Gerätetyp.
       placeholder: z. B. Firefox 124 auf Windows 11
     validations:
       required: true
@@ -84,5 +84,5 @@ body:
     id: screenshot
     attributes:
       label: Screenshot
-      description: Einen Screenshot/Link gerne hier einfügen.
+      description: Bitte einen Screenshot oder einen Link hier einfügen.
       placeholder: Screenshot-URL oder kurze Beschreibung

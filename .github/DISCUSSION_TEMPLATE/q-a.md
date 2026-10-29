@@ -10,4 +10,3 @@ Was möchtest du wissen?
 - Edition / Spiel:
 - Wo genau hängst du fest?
 - Was hast du bereits versucht?
-

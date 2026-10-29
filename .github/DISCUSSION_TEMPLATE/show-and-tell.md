@@ -11,4 +11,3 @@ Welche Edition, welche Regeln und wie läuft dein Run?
 - Regeln / Einschränkungen:
 - Was ist besonders daran?
 - Optional: Screenshot oder Share-Card
-
