@@ -73,12 +73,15 @@ body:
       description: Wie viele Spieler sind im Run beteiligt?
       placeholder: z. B. 1 / 2
 
-  - type: upload
+  - type: textarea
     id: export
     attributes:
-      label: Optional: JSON-Export hochladen
-      description: 💾 Export klicken und Datei anhängen
-      accept: .json
+      label: Optional: JSON-Export
+      description: Bitte hier den JSON-Export oder einen relevanten Ausschnitt einfügen.
+      placeholder: |
+        {
+          "example": "json"
+        }
 
   - type: textarea
     id: screenshot
