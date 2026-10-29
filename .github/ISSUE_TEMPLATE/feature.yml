@@ -1,0 +1,34 @@
+name: Feature-Wunsch
+description: Idee oder Verbesserung für den Tracker.
+title: ""
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Schön, dass du dir etwas wünschst. Bitte beschreibe dein Anliegen so konkret wie möglich.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Was wünschst du dir?
+      description: Beschreibe die Funktion oder Verbesserung.
+      placeholder: Beispiel: Eine bessere Übersichtsseite für alle Runs auf einmal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem löst das für dich?
+      description: Warum ist das für dich wichtig?
+      placeholder: Beispiel: Ich möchte schnell zwischen mehreren Runs wechseln können.
+    validations:
+      required: true
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Optional: Wie stellst du dir das vor?
+      description: Besser mit Beispielen, Screenshots oder einer kurzen Idee.
+      placeholder: Beispiel: Ein zusätzliches Dashboard mit Statistiken und kurzen Zusammenfassungen.

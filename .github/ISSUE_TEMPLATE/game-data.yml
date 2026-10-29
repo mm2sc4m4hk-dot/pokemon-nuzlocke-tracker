@@ -1,0 +1,52 @@
+name: Spieldaten fehlen/falsch
+description: Korrektur oder Ergänzung von Spieldaten im Tracker.
+title: ""
+labels: ["game data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für den Hinweis zu unvollständigen oder falschen Spieldaten.
+
+  - type: input
+    id: edition
+    attributes:
+      label: Edition
+      description: Welche Edition betrifft es?
+      placeholder: z. B. Scarlet, Sword, Emerald
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Betroffen: Route/Ort, Level Cap, Arenaleiter, Static Encounter
+      description: Bitte genau benennen, was fehlerhaft oder falsch ist.
+      placeholder: |
+        Beispiel:
+        - Route/Ort: Route 2
+        - Level Cap: 15
+        - Arenaleiter: Falkner
+        - Static Encounter: Zigzachs
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: Was steht aktuell da, was wäre richtig?
+      description: Bitte beschreibe den aktuellen Fehler und die korrekte Information.
+      placeholder: |
+        Aktuell: Level Cap 12
+        Richtig: Level Cap 15
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Quelle
+      description: Bitte einen Link oder eine verlässliche Quelle angeben.
+      placeholder: z. B. https://bulbapedia.bulbagarden.net/wiki/...
+    validations:
+      required: true

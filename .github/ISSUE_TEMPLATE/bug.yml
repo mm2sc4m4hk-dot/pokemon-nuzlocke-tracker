@@ -1,0 +1,88 @@
+name: Bug melden
+description: Ein Fehler im Tracker oder beim Tracking-Prozess.
+title: ""
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du einen Fehler meldest. Bitte beschreibe ihn so genau wie möglich.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe den Fehler kurz und konkret.
+      placeholder: Beispiel: Beim Eintragen eines Pokémon wird der Levelwert nicht gespeichert.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was hast du erwartet?
+      description: Was sollte laut deinem Verständnis eigentlich passieren?
+      placeholder: Beispiel: Der gespeicherte Level sollte nach dem Speichern übernommen werden.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Bitte nacheinander auflisten.
+      placeholder: |
+        1. Tracker öffnen
+        2. Run laden
+        3. Pokémon anlegen
+        4. Level eingeben und speichern
+    validations:
+      required: true
+
+  - type: input
+    id: edition
+    attributes:
+      label: Edition
+      description: Welche Edition oder Version betrifft der Fehler?
+      placeholder: z. B. Scarlet, Sword, Emerald, etc.
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Browser & Gerät
+      description: Handy/PC, Browser, ggf. Gerätetyp.
+      placeholder: z. B. Firefox 124 auf Windows 11
+    validations:
+      required: true
+
+  - type: input
+    id: soul-link
+    attributes:
+      label: SoulLink an/aus
+      description: Ist SoulLink aktiviert oder deaktiviert?
+      placeholder: z. B. an / aus
+    validations:
+      required: true
+
+  - type: input
+    id: player-count
+    attributes:
+      label: Spieleranzahl
+      description: Wie viele Spieler sind im Run beteiligt?
+      placeholder: z. B. 1 / 2
+
+  - type: upload
+    id: export
+    attributes:
+      label: Optional: JSON-Export hochladen
+      description: 💾 Export klicken und Datei anhängen
+      accept: .json
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Einen Screenshot/Link gerne hier einfügen.
+      placeholder: Screenshot-URL oder kurze Beschreibung
